@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
@@ -124,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "reddit-app"
+  "defaultProject": "reddit-app",
+  "cli": {
+    "analytics": false
+  }
 }
